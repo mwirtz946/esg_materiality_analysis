@@ -1,0 +1,31 @@
+What does it mean?
+- using computers to make investment decisions
+
+Big players:
+- Renaissance Technologies
+- AQR Capital Management
+- Citadel Securities: high frequency
+
+Numpy core functionalities actually written in C, which is a much faster language
+
+PROCESS:
+1. Collect data
+2. Develop a hypothesis for a strategy
+3. Backtest that strategy: make sure to test strategy against all international markets.
+   If successful in all then you can be sure you are onto something.
+4. Implement the strategy in production 
+
+Disclaimer for this project:
+1. Using random data because it's free from API
+2. Will not be executing trades
+3. WIll be saving recommended traes to excel files 
+
+Will be using the IEX Cloud API to gather stock market data to make investment decisions
+Will be using GET functionality on API
+
+Other API Functionality:
+- Post: Adds data to the atabase exposed by the API (create only)
+- Put: Adds and overwrites data in the database exposed by the API (create or replace)
+- Delete: Deletes data from API database
+
+
